@@ -4,6 +4,7 @@ os.remove('issues-output.csv')      # vymazání starého výstupního souboru
 with open('issues.csv', encoding='utf-8') as a_file:
  
      for a_line in a_file:
+        a_line = a_line.replace("\"\"","")      # vypustí z řetězce zdvojené uvozovky ("")
         
         poz1uvozovky = a_line.rfind(',"')       # pozice první čárky a uvozovky zprava, tj poslední řetězec uvedený "
         poz2uvozovky = a_line.rfind('",')       # pozice první uvozovky a čárky zprava, tj zda existuje ukončení řetězce
