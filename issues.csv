@@ -178,7 +178,7 @@ Pro správu souborů, které bude systém používat byla dohodnuta forma implem
     * smazání souboru z DMS
 * funkce budou dostupné
     * z UI jako ovládací prvek
-    * z DLL knihoven resp. bude existovat standardní postup, jak kód v DLL knihovně získá obsah suboru uloženého v DMS a jak do DMS soubor uloží.",Rasek Ludek,rasek_cgi,Rysanek Karel,rysanek_cgi,No,No,,2020-10-06 08:38:19,2021-02-15 13:17:50,,Release 1.8,,"Feature,High,In Review",0,0
+    * z DLL knihoven resp. bude existovat standardní postup, jak kód v DLL knihovně získá obsah suboru uloženého v DMS a jak do DMS soubor uloží.",Rasek Ludek,rasek_cgi,Adrian Hideghethy,hideghethy_goodatit,No,No,,2020-10-06 08:38:19,2021-02-19 08:55:48,,Release 1.8,,"Feature,High,In Progress",0,0
 43,https://gitlab.cdt.cz/tpi/cgi/issues/-/issues/43,DB model - zpristupneni,Closed,"Radi bychom nahledli do DB modelu jadra, alespon v castech sosusedicich s nasimi frameworky. Asi by stacil nekam umistit export/obrazek prislusnych casti sem na gitLAB.",Rysanek Karel,rysanek_cgi,Rysanek Karel,rysanek_cgi,No,No,,2020-10-07 13:05:48,2020-11-03 17:52:08,2020-11-03 17:52:08,Release 1.2,,"Documentation,In Review,Medium",0,0
 44,https://gitlab.cdt.cz/tpi/cgi/issues/-/issues/44,DMS - fce pro zapis a cteni,Closed,"Pro umísteni vytvorenych reportu a jejich stahovani uzivateli je potreba Document Management System, sdílená složka, resp. alespon funkce pro zápis souboru a cteni souboru.",Rysanek Karel,rysanek_cgi,Sedivy Vaclav,sedivy_goodatit,No,No,,2020-10-07 13:10:00,2020-10-07 14:53:36,2020-10-07 14:53:36,,,Medium,0,0
 45,https://gitlab.cdt.cz/tpi/cgi/issues/-/issues/45,MSTeams se po připojení do vpn ČDT odpojí,Closed,"Opakovaně se mi stává, že po připojení do vpn ČDT se MS Teams odpojí. Což je pro společnou práci závada dosti podstatná. 
@@ -361,7 +361,7 @@ Děkujeme za spolupráci.",Rysanek Karel,rysanek_cgi,Rysanek Karel,rysanek_cgi,N
 78,https://gitlab.cdt.cz/tpi/cgi/issues/-/issues/78,Kontrola na provázanost položek v Service selectoru již po stisku tlačítka Smazat,Open,"Pokud nelze smazat položku v Servis selektoru (je provázaná s něčím jiným), bylo by skvělé dát hlášku po stisku tlačítka smazat, ne až při pokusu o uložení - hrozí, že když se pokusím něco smazat a pak budu pokračovat v práci, tak se mi kvůli té nemožnosti smazání nepovede ani uložit následnou práci.",Sklenarova Pavla,sklenarova_cgi,Lucie Adamkova,adamkova_goodatit,No,No,,2020-11-25 09:23:08,2021-02-02 17:36:50,,,,"Feature,In Scope,Low",0,0
 79,https://gitlab.cdt.cz/tpi/cgi/issues/-/issues/79,Implementace SF do jadra - aktivum TABULKA,Open,"Do přístupové matice `R_SF_UZIVATEL_PRISTUPY` již generujeme oprávnění pro aktivum typu **TABULKA**
 
-Prosíme o implementaci přístupu pro toto aktivum do jádra.",Rysanek Karel,rysanek_cgi,Sklenarova Pavla,sklenarova_cgi,No,No,,2020-11-25 10:45:36,2021-02-18 09:13:19,,,,"Feature,High",0,0
+Prosíme o implementaci přístupu pro toto aktivum do jádra.",Rysanek Karel,rysanek_cgi,Sklenarova Pavla,sklenarova_cgi,No,No,,2020-11-25 10:45:36,2021-02-19 08:58:07,,,,"Feature,High,In Review",0,0
 80,https://gitlab.cdt.cz/tpi/cgi/issues/-/issues/80,Jak skrýt tlačítko Run?,Closed,"Dobrý den, chtěla jsem skrýt tlačítko RUN na editační obrazovce M_ROLE a použila jsem níže uvedený skript, který už kdysi fungoval. Skript proběhl v pořádku, ale tlačítko zůstalo. Kde by mohl být problém?
 Děkuji za odpověď.
 
@@ -804,7 +804,7 @@ Katka",Leinveberová Katarína,leinveberova_cgi,Sklenarova Pavla,sklenarova_cgi,
 - ??",Rysanek Karel,rysanek_cgi,Rysanek Karel,rysanek_cgi,No,No,,2021-01-19 15:16:21,2021-02-05 08:43:03,2021-02-05 08:43:03,,,"Documentation,In Review,Medium",0,0
 135,https://gitlab.cdt.cz/tpi/cgi/issues/-/issues/135,STD report errors  - ladění,Open,"STD report se zastavuje v kroku `DMS MWF/2183160700026/CLIB block pre DMS`. Nevime co tento krok znamena ani co znamena error z rozhrani 1411 viz session 3340400090
 
-Problém souvisí s https://gitlab.cdt.cz/tpi/cgi/issues/-/issues/134. Potřebujeme součinnost při ladění WF pro STD report, antož nemůžeme editovat jednotlivé kroky, které nejsou v naší režii.",Rysanek Karel,rysanek_cgi,Rysanek Karel,rysanek_cgi,No,No,,2021-01-19 15:27:30,2021-02-17 16:14:18,,,,"Bug,High,In Progress",0,0
+Problém souvisí s https://gitlab.cdt.cz/tpi/cgi/issues/-/issues/134. Potřebujeme součinnost při ladění WF pro STD report, antož nemůžeme editovat jednotlivé kroky, které nejsou v naší režii.",Rysanek Karel,rysanek_cgi,Peter Lipovsky,lipovsky_goodatit,No,No,,2021-01-19 15:27:30,2021-02-18 14:43:44,,,,"Bug,High,In Progress",0,0
 136,https://gitlab.cdt.cz/tpi/cgi/issues/-/issues/136,Nelze se přihlásit novým uživatelem,Open,"nový uživatel:
 
 login novy
@@ -837,7 +837,7 @@ Stav prostředí je
 ![image](/uploads/a4c5986266f6575bdf484b84602b02d8/image.png)",Leinveberová Katarína,leinveberova_cgi,Kubala Milan,kubala_cdt,No,No,,2021-01-26 05:55:50,2021-01-28 12:00:07,2021-01-28 12:00:07,,,Bug,0,0
 140,https://gitlab.cdt.cz/tpi/cgi/issues/-/issues/140,Object editor - hlídání délky názvů,Open,"Prosím o kontrolu délky názvů tabulek, sloupců apod. v objekt editoru. Pokud je délka názvů omezená, nevíme o tom a nevíme ani na kolik znaků. Navrhuji tuto kontrolu vyřešit např. pomocí hlášky před uložením (nemělo by být možné uložit tabulku s příliš dlouhým názvem). Tabulka s dlouhým názvem se nezmaterializovala správně, a tedy s příslušnou tabulkou nelze pracovat.
 Děkuji.",Sklenarova Pavla,sklenarova_cgi,Fabio Melloni,melloni_goodatit,No,No,,2021-02-01 10:10:34,2021-02-08 15:13:30,,,,"Feature,In Scope,Medium",0,0
-141,https://gitlab.cdt.cz/tpi/cgi/issues/-/issues/141,definice sluzebnich pageflow a workflow a mikroworflow pro obsluhu tabulky,Open,"Na základě workshopu s HA,  prosím o seznam prefixů (resp. definici jak je poznat) pro WF,MWF,pageflow, které se generují automaticky s tabulkama pro jejich obsluhu v aplikaci a budou se defakto ridit pristupem k tabulce a takto i definovat v security konzoli.",Rysanek Karel,rysanek_cgi,Peter Lipovsky,lipovsky_goodatit,No,No,,2021-02-02 09:41:10,2021-02-17 13:30:21,,,,"Documentation,Medium",0,0
+141,https://gitlab.cdt.cz/tpi/cgi/issues/-/issues/141,definice sluzebnich pageflow a workflow a mikroworflow pro obsluhu tabulky,Open,"Na základě workshopu s HA,  prosím o seznam prefixů (resp. definici jak je poznat) pro WF,MWF,pageflow, které se generují automaticky s tabulkama pro jejich obsluhu v aplikaci a budou se defakto ridit pristupem k tabulce a takto i definovat v security konzoli.",Rysanek Karel,rysanek_cgi,Peter Lipovsky,lipovsky_goodatit,No,No,,2021-02-02 09:41:10,2021-02-19 09:00:48,,,,"Feature,Medium",0,0
 142,https://gitlab.cdt.cz/tpi/cgi/issues/-/issues/142,MSTeams se po připojení do vpn ČDT odpojí,Closed,"Dobrý den, po výměně počítače nemohu být současně ve vpn ČDT a být připojen k  MS Teams. Úplně stejný problém řešil @rysanek_cgi  v issue #45 se závěrem:
 
 
@@ -879,7 +879,7 @@ V tab. M_WF_STEP_INTGR nemají žádný platný záznam
 ![menu-podpoložka](/uploads/91ba68b35287353f8550cd1e215dcd4f/menu-podpoložka.png)",Sklenarova Pavla,sklenarova_cgi,Sklenarova Pavla,sklenarova_cgi,No,No,,2021-02-04 13:08:44,2021-02-09 13:42:08,2021-02-09 13:42:08,,,"In Review,Low,Question",0,0
 149,https://gitlab.cdt.cz/tpi/cgi/issues/-/issues/149,Doplnění číselníkového editoru o editaci jednovrstvových tabulek,Closed,"Na konzultaci s @kubala_cdt vznikla potřeba doplnit číselníkový editor o 
 editaci vrstevnatosti tabulek. Prosíme o rychlé doplnění, antož pro správnou funkci SF i RE je potřeba některé tabulky nastavit jako jednovrstvové.",Rysanek Karel,rysanek_cgi,Fabio Melloni,melloni_goodatit,No,No,,2021-02-04 16:42:49,2021-02-11 16:35:05,2021-02-09 13:39:47,,,Feature,0,0
-150,https://gitlab.cdt.cz/tpi/cgi/issues/-/issues/150,Při vložení ID aktiva napřímo (bez použití assigneru) se ID aktiva neuloží,Open,"'Znám-li ID aktiva a chci-li jej vložit napřímo do pole AKTIVUM_ID (tj. bez použití assigneru), takto vložená hodnota se mi neuloží. Platí i pro jiné hodnoty, kde takto obcházím assigner.
+150,https://gitlab.cdt.cz/tpi/cgi/issues/-/issues/150,Při vložení ID aktiva napřímo (bez použití assigneru) se ID aktiva neuloží,Closed,"'Znám-li ID aktiva a chci-li jej vložit napřímo do pole AKTIVUM_ID (tj. bez použití assigneru), takto vložená hodnota se mi neuloží. Platí i pro jiné hodnoty, kde takto obcházím assigner.
 
 Kroky:
 
@@ -888,7 +888,7 @@ Kroky:
 - Vyplnit potřebné údaje, vložit AKTIVUM_ID napřímo z clipboardu
 - Uložit
 
-Přikládám video: [Nelze-vlozit-id-aktiva-primo.mkv](/uploads/76d2eafe2289876f3e20e4a2dbb7d3e4/Nelze-vlozit-id-aktiva-primo.mkv)",Sklenarova Pavla,sklenarova_cgi,Sklenarova Pavla,sklenarova_cgi,No,No,,2021-02-05 09:54:24,2021-02-14 18:02:18,,,,"Bug,Low",0,0
+Přikládám video: [Nelze-vlozit-id-aktiva-primo.mkv](/uploads/76d2eafe2289876f3e20e4a2dbb7d3e4/Nelze-vlozit-id-aktiva-primo.mkv)",Sklenarova Pavla,sklenarova_cgi,Sklenarova Pavla,sklenarova_cgi,No,No,,2021-02-05 09:54:24,2021-02-19 13:56:37,2021-02-19 13:56:37,,,"Bug,In Review,Low",0,0
 151,https://gitlab.cdt.cz/tpi/cgi/issues/-/issues/151,"Objekt, z kterého se skládá datový typ, nelze mazat ani editovat",Closed,"Objekt, z kterého se skládá datový typ, nelze mazat ani editovat. V případě složitějších datových typů je nutno vytvářet jej celý znova. Prosíme o doplnění editace objektů - datových typů do object editoru.",Sklenarova Pavla,sklenarova_cgi,Sklenarova Pavla,sklenarova_cgi,No,No,,2021-02-05 10:40:10,2021-02-05 16:31:40,2021-02-05 16:31:40,,,"Feature,Medium",0,0
 152,https://gitlab.cdt.cz/tpi/cgi/issues/-/issues/152,Speciální oprávnění - implementace,Open,Prosím o implementaci speciálních oprávnění z tabulky M_SPECIALNI_OPRAVNENI. Viz https://gitlab.cdt.cz/tpi/dokumentace/-/wikis/Security-Framework-Aktiva-prehled,Sklenarova Pavla,sklenarova_cgi,Adrian Hideghethy,hideghethy_goodatit,No,No,,2021-02-09 10:26:43,2021-02-10 10:51:03,,,,"Feature,Medium",0,0
 153,https://gitlab.cdt.cz/tpi/cgi/issues/-/issues/153,Service selector - chybné napojení položky M_SPECIALNI_OPRAVNENI - list do menu,Closed,"Pokud v Service selectoru přidávám položku ""M_SPECIALNI_OPRAVNENI - list"" do menu aplikace TPI, příslušné parametry se navážou na ""TPI"" a vytvoří se v menu adresář M_SPECIALNI_OPRAVNENI. Očekávané chování: vytvoří se v menu **položka ** M_SPECIALNI_OPRAVNENI. Zařazování jiné položky do menu fungovalo v pořádku.
@@ -904,11 +904,11 @@ Přikládám záznam.
 Přikládám záznam.
 
 [2021-02-10_08-38-16.mkv](/uploads/6652c055c5e606ac9463006c0c903b79/2021-02-10_08-38-16.mkv)",Sklenarova Pavla,sklenarova_cgi,Sklenarova Pavla,sklenarova_cgi,No,No,,2021-02-10 08:47:33,2021-02-11 16:14:14,2021-02-11 16:14:14,,,"Bug,Low",0,0
-157,https://gitlab.cdt.cz/tpi/cgi/issues/-/issues/157,pristup na stanici CDT0000PCENT308 10.30.190.208,Open,"Žádám o RDP přístup na stanici CDT0000PCENT308 (10.30.190.208) pro testovací účely aplikace TPI, ověření přístupu z konkrétní stanice pro
+157,https://gitlab.cdt.cz/tpi/cgi/issues/-/issues/157,pristup na stanici CDT0000PCENT308 10.30.190.208,Closed,"Žádám o RDP přístup na stanici CDT0000PCENT308 (10.30.190.208) pro testovací účely aplikace TPI, ověření přístupu z konkrétní stanice pro
 
 pro uživatele CDTTEST\sklenarova
 
-Děkuji.",Sklenarova Pavla,sklenarova_cgi,Jan Mracek,mracek,No,No,,2021-02-10 10:34:36,2021-02-10 10:34:36,,,,"Feature,Medium",0,0
+Děkuji.",Sklenarova Pavla,sklenarova_cgi,Jan Mracek,mracek,No,No,,2021-02-10 10:34:36,2021-02-18 15:21:53,2021-02-18 15:21:53,,,"Feature,Medium",0,0
 158,https://gitlab.cdt.cz/tpi/cgi/issues/-/issues/158,update zaznamu v jednovrstvovych tabulkach,Closed,"'Potrebujeme provest update zaznamu do jedne vrstvy, obdobne jako jsme dnes provedli na TPI_UZIVATEL. Tj. do vrstvy pro jednovrstvove tabulky. Jsou to tyto tabulky:
 
 - POM_SF_SECURITY_ALLOWED 
@@ -952,4 +952,4 @@ WF cannot be played[err_code=904].
 ```
 Není jasné, zda tato chyba nesouvisí s definicí kategorie v M_CIS_TASKLIST_OBLAST, kde jsme definovali kategorii `STANDARDNI_REPORT` společně s HA a snad tudíž korektně.
 
-Viz session=4451400090",Rysanek Karel,rysanek_cgi,Rysanek Karel,rysanek_cgi,No,No,,2021-02-16 16:16:59,2021-02-18 09:26:22,,,,"Bug,High,In Review,In Scope",0,0
+Viz session=4451400090",Rysanek Karel,rysanek_cgi,Rysanek Karel,rysanek_cgi,No,No,,2021-02-16 16:16:59,2021-02-19 08:54:13,,,,"Bug,High,On Hold",0,0
